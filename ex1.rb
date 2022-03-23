@@ -2,12 +2,12 @@
 ## Não imprime com 2 casas decimais sempre. 
 valor = gets.to_f
 
-if (valor <= 2000)
+if(valor <= 2000)
     puts("Isento")
-elsif (valor <= 3000)
+elsif(valor <= 3000)
     pag = valor * 0.08
     puts("R$#{pag.round(2)}")
-elsif (valor <= 4500)
+elsif(valor <= 4500)
     pag = valor * 0.18
     puts("R$#{pag.round(2)}")
 else
